@@ -9,4 +9,5 @@
     <color name="gray">#ffA9A9A9</color>
     <color name="white">#ffFFFFFF</color>
     <color name="card_black">#ff141922</color>
+    <color name="transparent">#00000000</color>
 </resources>

@@ -15,4 +15,24 @@
         <item name="android:windowLightStatusBar">false</item>
         <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">false</item>
     </style>
+
+    <style name="BottomNavigationBarTheme" parent="Theme.ToDo">
+        <item name="backgroundTint">@color/card_black</item>
+        <item name="android:layout_gravity">bottom</item>
+        <item name="elevation">0dp</item>
+        <item name="fabAlignmentMode">center</item>
+        <item name="fabAnchorMode">cradle</item>
+        <item name="fabCradleMargin">8dp</item>
+    </style>
+
+    <style name="FloatingActionButtonTheme" parent="Theme.ToDo">
+        <item name="android:backgroundTint">@color/blue</item>
+        <item name="android:foregroundTint">@color/white</item>
+        <item name="android:src">@drawable/ic_add</item>
+        <item name="backgroundTint">@color/card_black</item>
+        <item name="borderWidth">4dp</item>
+        <item name="layout_anchor">@id/bottom_app_bar</item>
+        <item name="tint">@color/white</item>
+    </style>
+
 </resources>
