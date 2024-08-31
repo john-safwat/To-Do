@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="@string/tasks"
+        android:icon="@drawable/ic_list"
+        android:id="@+id/navigation_tasks_list"
+        />
+
+    <item
+        android:title=""
+        android:id="@+id/navigation_place_holder"
+        />
+    <item
+        android:title="@string/settings"
+        android:icon="@drawable/ic_settings"
+        android:id="@+id/navigation_settings"
+        />
+
+</menu>
