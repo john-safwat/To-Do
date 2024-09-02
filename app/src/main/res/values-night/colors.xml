@@ -10,6 +10,6 @@
     <color name="white">#ffFFFFFF</color>
     <color name="card_black">#ff141922</color>
     <color name="transparent">#00000000</color>
-    <color name="card_text_color">#ff363636</color>
-    <color name="card_color">#ffFFFFFF</color>
+    <color name="card_text_color">#ffFFFFFF</color>
+    <color name="card_color">#ff141922</color>
 </resources>

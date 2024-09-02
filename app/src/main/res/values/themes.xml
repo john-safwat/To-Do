@@ -11,8 +11,8 @@
 
         <!-- app theme -->
         <item name="android:windowBackground">@color/cyan</item>
-        <item name="android:statusBarColor">@color/cyan</item>
-        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:statusBarColor">@color/blue</item>
+        <item name="android:windowLightStatusBar">false</item>
         <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">true</item>
 
     </style>
@@ -34,6 +34,17 @@
         <item name="borderWidth">4dp</item>
         <item name="layout_anchor">@id/bottom_app_bar</item>
         <item name="tint">@color/white</item>
+    </style>
+    
+    <style name="AppTitleStyle" parent="Theme.ToDo">
+        <item name="android:textSize" >22sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="DateCardTextStyle" parent="Theme.ToDo">
+        <item name="android:textSize" >16sp</item>
+        <item name="android:textStyle">bold</item>
     </style>
 
 </resources>
